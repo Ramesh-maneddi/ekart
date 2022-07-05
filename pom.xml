@@ -83,7 +83,7 @@
 				
 				<configuration>
                 <testFailureIgnore>true</testFailureIgnore>
-             <!--    <shutdown>kill</shutdown>--> <!-- Use it if required-->
+               <shutdown>kill</shutdown> <!-- Use it if required-->
                 </configuration>
 			</plugin>
 		</plugins>
