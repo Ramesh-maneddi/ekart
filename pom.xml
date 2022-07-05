@@ -79,6 +79,12 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				
+				
+				<configuration>
+                <testFailureIgnore>true</testFailureIgnore>
+             <!--    <shutdown>kill</shutdown>--> <!-- Use it if required-->
+                </configuration>
 			</plugin>
 		</plugins>
 
